@@ -60,7 +60,6 @@ a {
   transition: all .3s;
 }
 
-
 body {
   margin: 0;
 }
@@ -72,8 +71,6 @@ html {
 
 .wrapper {
   padding: 5px;
-  width: 1000px;
-  height: 800px;
   overflow: auto;
 }
 
@@ -143,4 +140,8 @@ html {
 
 .table-grid .left-4 {
   left: 225px;
+}
+
+.h11 {
+  grid-row: 0 / 4 !important;
 }
