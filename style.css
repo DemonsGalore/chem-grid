@@ -71,63 +71,76 @@ html {
 }
 
 .wrapper {
-  display: grid;
-}
-
-/*
- * Example of a "widget" that contains our table
- * I'm imagining a dashboard made up of lots of these "tiles"
- */
-.small-widget-box {
-    padding: 5px;
-    width: 400px;
-    height: 400px;
-    overflow: auto;
-
+  padding: 5px;
+  width: 1000px;
+  height: 800px;
+  overflow: auto;
 }
 
 .table-grid {
-    display: grid;
-    grid-template-columns: repeat(10, minmax(75px, auto));
-    grid-template-rows: repeat(13, minmax(auto, 75px));
-    overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(15, minmax(75px, auto));
+  grid-template-rows: repeat(13, minmax(auto, 75px));
+  overflow: auto;
 
-    max-height: 100%;
-    max-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .table-grid div {
-    border: 1px solid #111;
-    z-index: 0;
+  border: 1px solid #111;
+  z-index: 0;
 }
 
-.table-grid .fixedToTop {
-    /* Uncomment these if you want to freeze the first row */
-    position: sticky;
-    top: 0;
-
-    z-index: 10;
-}
-
-.table-grid .fixedToLeft {
-    /* Uncomment these if you want to freeze the first column */
-    position: sticky;
-    left: 0;
-
-    z-index: 10;
+.table-grid .fixed {
+  position: sticky;
+  z-index: 10;
 }
 
 .table-grid .fixedToBoth {
-    /* Uncomment this if you want to freeze the first row or column */
-    position: sticky;
-
-    /* Uncomment these if you want to freeze the first column */
-    left: 0;
-
-    top: 0;
-    z-index: 20;
+  position: sticky;
+  z-index: 20;
 }
 
 .table-grid .header {
-    background-color: rgb(220,220,220);
+  background-color: rgb(220,220,220);
+}
+
+.table-grid .top-1 {
+  top: 0;
+}
+
+.table-grid .top-2 {
+  top: 75px;
+}
+
+.table-grid .top-3 {
+  top: 150px;
+}
+
+.table-grid .top-4 {
+  top: 225px;
+}
+
+.table-grid .top-5 {
+  top: 300px;
+}
+
+.table-grid .top-6 {
+  top: 375px;
+}
+.table-grid .left-1 {
+  left: 0;
+}
+
+.table-grid .left-2 {
+  left: 75px;
+}
+
+.table-grid .left-3 {
+  left: 150px;
+}
+
+.table-grid .left-4 {
+  left: 225px;
 }
