@@ -73,13 +73,13 @@ html {
   padding: 5px;
   overflow: auto;
   height: 700px;
-  width: 900px;
+  /* width: 900px; */
 }
 
 .table-grid {
   display: grid;
-  grid-template-columns: repeat(15, minmax(75px, auto));
-  grid-template-rows: repeat(13, minmax(auto, 75px));
+  grid-template-columns: repeat(15, minmax(5rem, auto));
+  grid-template-rows: repeat(13, minmax(auto, 4rem));
   overflow: auto;
 
   max-height: 100%;
@@ -110,40 +110,68 @@ html {
 }
 
 .table-grid .top-2 {
-  top: 75px;
+  top: 4rem;
 }
 
 .table-grid .top-3 {
-  top: 150px;
+  top: 8rem;
 }
 
 .table-grid .top-4 {
-  top: 225px;
+  top: 12rem;
 }
 
 .table-grid .top-5 {
-  top: 300px;
+  top: 16rem;
 }
 
 .table-grid .top-6 {
-  top: 375px;
+  top: 20rem;
 }
 .table-grid .left-1 {
   left: 0;
 }
 
 .table-grid .left-2 {
-  left: 75px;
+  left: 5rem;
 }
 
 .table-grid .left-3 {
-  left: 150px;
+  left: 10rem;
 }
 
 .table-grid .left-4 {
-  left: 225px;
+  left: 15rem;
 }
 
-.h11 {
-  grid-row: 0 / 4 !important;
+.span-2 {
+  grid-column: auto / span 2;
+}
+
+.span-2 {
+  grid-column: auto / span 2;
+}
+
+.span-3 {
+  grid-column: auto / span 3;
+}
+
+.span-4 {
+  grid-column: auto / span 4;
+}
+
+.span-5 {
+  grid-column: auto / span 5;
+}
+
+.span-6 {
+  grid-column: auto / span 6;
+}
+
+.span-7 {
+  grid-column: auto / span 7;
+}
+
+.span-8 {
+  grid-column: auto / span 8;
 }

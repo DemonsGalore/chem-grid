@@ -2,121 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta name="theme-color" content="#111111">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="author" content="">
   <meta name="description" content="">
   <meta name="keywords" content="">
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
   <title>Page Title</title>
   <link rel="stylesheet" href="./style.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
 </head>
 <body>
-  <noscript>
-    You need to enable JavaScript to run this app.
-  </noscript>
   <div class="wrapper">
     <div class="table-grid">
-      <div class="header fixedToBoth left-1 top-1 h11">Partikeloberflächenladung:</div>
-      <div class="header fixedToBoth left-2 top-1">Stabilisierung:</div>
-      <div class="header fixedToBoth left-3 top-1">Partikeloberfläche:</div>
-      <div class="header fixedToBoth left-4 top-1">Gegenion / Molekül:</div>
-      <div class="header fixed top-1">Column 5, row 1</div>
-      <div class="header fixed top-1">Column 6, row 1</div>
-      <div class="header fixed top-1">Column 7, row 1</div>
-      <div class="header fixed top-1">Column 8, row 1</div>
-      <div class="header fixed top-1">Column 9, row 1</div>
-      <div class="header fixed top-1">Column 10, row 1</div>
-      <div class="header fixed top-1">Column 6, row 1</div>
-      <div class="header fixed top-1">Column 7, row 1</div>
-      <div class="header fixed top-1">Column 8, row 1</div>
-      <div class="header fixed top-1">Column 9, row 1</div>
-      <div class="header fixed top-1">Column 10, row 1</div>
+      <div class="header fixedToBoth left-1 top-1 span-4">Partikeloberflächenladung:</div>
+      <div class="header fixed top-1 span-7">anionisch</div>
+      <div class="header fixed top-1">kationisch</div>
+      <div class="header fixed top-1 span-3">neutral (sauer)</div>
 
-      <div class="header fixedToBoth left-1 top-2">Column 1, row 2</div>
-      <div class="header fixedToBoth left-2 top-2">Column 2, row 2</div>
-      <div class="header fixedToBoth left-3 top-2">Column 3, row 2</div>
-      <div class="header fixedToBoth left-4 top-2">Column 4, row 2</div>
-      <div class="header fixed top-2">Column 5, row 2</div>
-      <div class="header fixed top-2">Column 6, row 2</div>
-      <div class="header fixed top-2">Column 7, row 2</div>
-      <div class="header fixed top-2">Column 8, row 2</div>
-      <div class="header fixed top-2">Column 9, row 2</div>
-      <div class="header fixed top-2">Column 10, row 2</div>
-      <div class="header fixed top-2">Column 6, row 2</div>
-      <div class="header fixed top-2">Column 7, row 2</div>
-      <div class="header fixed top-2">Column 8, row 2</div>
-      <div class="header fixed top-2">Column 9, row 2</div>
-      <div class="header fixed top-2">Column 10, row 2</div>
+      <div class="header fixedToBoth left-1 top-2 span-4">Stabilisierung:</div>
+      <div class="header fixed top-2 span-4">Natrium</div>
+      <div class="header fixed top-2">Natrium (gering)</div>
+      <div class="header fixed top-2">Natrium / Aluminium</div>
+      <div class="header fixed top-2">Ammonium</div>
+      <div class="header fixed top-2">Chlorid</div>
+      <div class="header fixed top-2">Entsalzt (vollst.)</div>
+      <div class="header fixed top-2 span-2">Entsalzt / Aluminium</div>
 
-      <div class="header fixedToBoth left-1 top-3">Column 1, row 2</div>
-      <div class="header fixedToBoth left-2 top-3">Column 2, row 2</div>
-      <div class="header fixedToBoth left-3 top-3">Column 3, row 2</div>
-      <div class="header fixedToBoth left-4 top-3">Column 4, row 2</div>
-      <div class="header fixed top-3">Column 5, row 2</div>
-      <div class="header fixed top-3">Column 6, row 2</div>
-      <div class="header fixed top-3">Column 7, row 2</div>
-      <div class="header fixed top-3">Column 8, row 2</div>
-      <div class="header fixed top-3">Column 9, row 2</div>
-      <div class="header fixed top-3">Column 10, row 2</div>
-      <div class="header fixed top-3">Column 6, row 2</div>
-      <div class="header fixed top-3">Column 7, row 2</div>
-      <div class="header fixed top-3">Column 8, row 2</div>
-      <div class="header fixed top-3">Column 9, row 2</div>
-      <div class="header fixed top-3">Column 10, row 2</div>
+      <div class="header fixedToBoth left-1 top-3 span-4">Partikeloberfläche:</div>
+      <div class="header fixed top-3 span-4">-Si-O-</div>
+      <div class="header fixed top-3">-Si-O-</div>
+      <div class="header fixed top-3">-Si-O- /|-Al-OH</div>
+      <div class="header fixed top-3">-Si-O-</div>
+      <div class="header fixed top-3">-Si-O-Al+</div>
+      <div class="header fixed top-3">-Si-OH</div>
+      <div class="header fixed top-3 span-2">-Si-OH / |-Al-OH</div>
 
+      <div class="header fixedToBoth left-1 top-4 span-4">Gegenion / Molekül:</div>
+      <div class="header fixed top-4 span-4">Na+</div>
+      <div class="header fixed top-4">&lt;Na+</div>
+      <div class="header fixed top-4">Na+</div>
+      <div class="header fixed top-4">NH4+</div>
+      <div class="header fixed top-4">Cl-</div>
+      <div class="header fixed top-4">H2O</div>
+      <div class="header fixed top-4">&lt;&lt;Na+/H2O</div>
+      <div class="header fixed top-4">&lt;&lt;&lt;Na+/H2O</div>
 
-      <div class="header fixedToBoth left-1 top-4">Column 1, row 2</div>
-      <div class="header fixedToBoth left-2 top-4">Column 2, row 2</div>
-      <div class="header fixedToBoth left-3 top-4">Column 3, row 2</div>
-      <div class="header fixedToBoth left-4 top-4">Column 4, row 2</div>
-      <div class="header fixed top-4">Column 5, row 2</div>
-      <div class="header fixed top-4">Column 6, row 2</div>
-      <div class="header fixed top-4">Column 7, row 2</div>
-      <div class="header fixed top-4">Column 8, row 2</div>
-      <div class="header fixed top-4">Column 9, row 2</div>
-      <div class="header fixed top-4">Column 10, row 2</div>
-      <div class="header fixed top-4">Column 6, row 2</div>
-      <div class="header fixed top-4">Column 7, row 2</div>
-      <div class="header fixed top-4">Column 8, row 2</div>
-      <div class="header fixed top-4">Column 9, row 2</div>
-      <div class="header fixed top-4">Column 10, row 2</div>
+      <div class="header fixedToBoth left-1 top-5 span-4">Additiv(e):</div>
+      <div class="header fixed top-5">frei</div>
+      <div class="header fixed top-5">Biozid</div>
+      <div class="header fixed top-5">Frostschutz</div>
+      <div class="header fixed top-5">Biozid & Frostschutz</div>
+      <div class="header fixed top-5">frei</div>
+      <div class="header fixed top-5">frei</div>
+      <div class="header fixed top-5">frei</div>
+      <div class="header fixed top-5">frei</div>
+      <div class="header fixed top-5">frei</div>
+      <div class="header fixed top-5">frei</div>
+      <div class="header fixed top-5">frei</div>
 
-
-      <div class="header fixedToBoth left-1 top-5">Column 1, row 2</div>
-      <div class="header fixedToBoth left-2 top-5">Column 2, row 2</div>
-      <div class="header fixedToBoth left-3 top-5">Column 3, row 2</div>
-      <div class="header fixedToBoth left-4 top-5">Column 4, row 2</div>
-      <div class="header fixed top-5">Column 5, row 2</div>
-      <div class="header fixed top-5">Column 6, row 2</div>
-      <div class="header fixed top-5">Column 7, row 2</div>
-      <div class="header fixed top-5">Column 8, row 2</div>
-      <div class="header fixed top-5">Column 9, row 2</div>
-      <div class="header fixed top-5">Column 10, row 2</div>
-      <div class="header fixed top-5">Column 6, row 2</div>
-      <div class="header fixed top-5">Column 7, row 2</div>
-      <div class="header fixed top-5">Column 8, row 2</div>
-      <div class="header fixed top-5">Column 9, row 2</div>
-      <div class="header fixed top-5">Column 10, row 2</div>
-
-      <div class="header fixedToBoth left-1 top-6">Column 1, row 2</div>
-      <div class="header fixedToBoth left-2 top-6">Column 2, row 2</div>
-      <div class="header fixedToBoth left-3 top-6">Column 3, row 2</div>
-      <div class="header fixedToBoth left-4 top-6">Column 4, row 2</div>
-      <div class="header fixed top-6">Column 5, row 2</div>
-      <div class="header fixed top-6">Column 6, row 2</div>
-      <div class="header fixed top-6">Column 7, row 2</div>
-      <div class="header fixed top-6">Column 8, row 2</div>
-      <div class="header fixed top-6">Column 9, row 2</div>
-      <div class="header fixed top-6">Column 10, row 2</div>
-      <div class="header fixed top-6">Column 6, row 2</div>
-      <div class="header fixed top-6">Column 7, row 2</div>
-      <div class="header fixed top-6">Column 8, row 2</div>
-      <div class="header fixed top-6">Column 9, row 2</div>
-      <div class="header fixed top-6">Column 10, row 2</div>
+      <div class="header fixedToBoth left-1 top-6">Größenklassifizierung</div>
+      <div class="header fixedToBoth left-2 top-6">Partikelgröße nm</div>
+      <div class="header fixedToBoth left-3 top-6">Feststoffgehalt %m/m</div>
+      <div class="header fixedToBoth left-4 top-6">SSA m²/g</div>
+      <div class="header fixed top-6"></div>
+      <div class="header fixed top-6"></div>
+      <div class="header fixed top-6"></div>
+      <div class="header fixed top-6"></div>
+      <div class="header fixed top-6"></div>
+      <div class="header fixed top-6"></div>
+      <div class="header fixed top-6"></div>
+      <div class="header fixed top-6"></div>
+      <div class="header fixed top-6"></div>
+      <div class="header fixed top-6"></div>
+      <div class="header fixed top-6"></div>
 
       <div class="header fixed left-1">Column 1, row 3</div>
       <div class="header fixed left-2">Column 1, row 3</div>
@@ -295,6 +253,5 @@
       <div class="body">Column 10, row 3</div>
     </div>
   </div>
-  <script src="./scripts.js"></script>
 </body>
 </html>
