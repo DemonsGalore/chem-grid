@@ -79,7 +79,7 @@ html {
 .table-grid {
   display: grid;
   grid-template-columns: repeat(15, minmax(5rem, auto));
-  grid-template-rows: repeat(13, minmax(auto, 4rem));
+  grid-template-rows: repeat(27, minmax(auto, 4rem));
   overflow: auto;
 
   max-height: 100%;
